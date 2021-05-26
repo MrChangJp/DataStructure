@@ -65,11 +65,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="面试题1.c" />
-    <ClCompile Include="面试题2.c" />
-    <ClCompile Include="面试题3.c" />
-    <ClCompile Include="面试题4.c" />
-    <ClCompile Include="面试题5.c" />
+    <ClCompile Include="面试题.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
