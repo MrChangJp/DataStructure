@@ -15,7 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="面试题.c">
+    <ClCompile Include="面试题1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="面试题2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="面试题3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="面试题4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="面试题5.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
