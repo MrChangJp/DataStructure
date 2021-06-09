@@ -2,6 +2,6 @@
 
 #pragma once
 #include "SListFunc.h"
-//
-//void test2();
-//void MergeList(ListNode** list1,  ListNode* list2);
+
+void test2();
+void MergeList(ListNode** list1,  ListNode* list2);
