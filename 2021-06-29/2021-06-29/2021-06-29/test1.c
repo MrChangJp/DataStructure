@@ -4,6 +4,7 @@
 int main(){
 
 	SqList list;
+	
 
 	InitList(&list);
 	//DestoryList(&list);
