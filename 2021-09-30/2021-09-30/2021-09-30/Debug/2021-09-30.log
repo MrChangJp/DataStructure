@@ -1,16 +1,22 @@
-﻿生成启动时间为 2021/6/30 20:20:33。
+﻿生成启动时间为 2021/7/1 20:38:26。
      1>项目“H:\GitProject\DataStructure\2021-09-30\2021-09-30\2021-09-30\2021-09-30.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (2021-09-30.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt moreElem.c
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt demo1.c LinkedList.c moreElem.c
          moreElem.c
      1>h:\gitproject\datastructure\2021-09-30\2021-09-30\2021-09-30\moreelem.c(140): warning C4028: 形参 1 与声明不同
+         LinkedList.c
+         demo1.c
+     1>h:\gitproject\datastructure\2021-09-30\2021-09-30\2021-09-30\demo1.c(67): warning C4047: “函数”:“Polynomial”与“PNode **”的间接级别不同
+     1>h:\gitproject\datastructure\2021-09-30\2021-09-30\2021-09-30\demo1.c(67): warning C4024: “PrintfPNOde”: 形参和实参 1 的类型不同
+         正在生成代码...
        Link:
-         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\GitProject\DataStructure\2021-09-30\2021-09-30\Debug\2021-09-30.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\GitProject\DataStructure\2021-09-30\2021-09-30\Debug\2021-09-30.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\GitProject\DataStructure\2021-09-30\2021-09-30\Debug\2021-09-30.lib" /MACHINE:X86 Debug\demo1.obj
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\GitProject\DataStructure\2021-09-30\2021-09-30\Debug\2021-06-30.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\GitProject\DataStructure\2021-09-30\2021-09-30\Debug\2021-06-30.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\GitProject\DataStructure\2021-09-30\2021-09-30\Debug\2021-06-30.lib" /MACHINE:X86 Debug\demo1.obj
          Debug\LinkedList.obj
          Debug\moreElem.obj
-         2021-09-30.vcxproj -> H:\GitProject\DataStructure\2021-09-30\2021-09-30\Debug\2021-09-30.exe
+         2021-09-30.vcxproj -> H:\GitProject\DataStructure\2021-09-30\2021-09-30\Debug\2021-06-30.exe
      1>已完成生成项目“H:\GitProject\DataStructure\2021-09-30\2021-09-30\2021-09-30\2021-09-30.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.55
+已用时间 00:00:01.60
